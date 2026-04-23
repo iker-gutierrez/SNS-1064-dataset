@@ -26,7 +26,7 @@ The dataset explicitly separates answers from their supporting evidence, enablin
 - `test_df.csv` — test split (20%, manually curated)  
 - `clinical_guidebooks_txt.zip` — source texts (TXT format)  
 - `datasetting.ipynb` — dataset construction pipeline  
-- `paper.pdf` — full description of the dataset  
+- `paper.pdf` — full description of dataset and building process
 
 ---
 
@@ -58,8 +58,6 @@ The separation between `judgement` and `evidence` supports traceability and inte
 - The test set is fully curated to ensure reliable evaluation  .
 - Some noise may remain in the training set.
 
-- 
-(See `paper.pdf` for full details.)
 
 ---
 
