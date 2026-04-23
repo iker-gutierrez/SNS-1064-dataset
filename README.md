@@ -7,13 +7,13 @@ SNS-1064 is a structured Spanish clinical dataset designed for Retrieval-Augment
 - Samples: 1,064 QA instances  
 - Domains: anxiety, diabetes, stroke (ictus), palliative care  
 - Structure:
-  - `guidebook` — source document  
-  - `topic` — clinical context  
-  - `question` — main question  
-  - `subquestion` — optional refinement  
-  - `judgement` — short clinical answer  
-  - `evidence` — supporting text  
-  - `considerations` — optional interpretation  
+  - `guidebook` : source document  
+  - `topic` : clinical context  
+  - `question` : main question  
+  - `subquestion` : optional refinement  
+  - `judgement` : short clinical answer  
+  - `evidence` : supporting text  
+  - `considerations` : optional interpretation  
 
 The dataset explicitly separates answers from their supporting evidence, enabling grounded and explainable QA.
 
@@ -21,12 +21,12 @@ The dataset explicitly separates answers from their supporting evidence, enablin
 
 ## Repository Contents
 
-- `dataset.csv` — full dataset  
-- `train_df.csv` — training split (80%)  
-- `test_df.csv` — test split (20%, manually curated)  
-- `clinical_guidebooks_txt.zip` — source texts (TXT format)  
-- `datasetting.ipynb` — dataset construction pipeline  
-- `paper.pdf` — full description of dataset and building process
+- `dataset.csv` : full dataset  
+- `train_df.csv` : training split (80%)  
+- `test_df.csv` : test split (20%, manually curated)  
+- `clinical_guidebooks_txt.zip` : source texts (TXT format)  
+- `datasetting.ipynb` : dataset construction pipeline  
+- `paper.pdf` : full description of dataset and building process
 
 ---
 
