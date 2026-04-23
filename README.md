@@ -58,3 +58,14 @@ The separation between `judgement` and `evidence` supports traceability and inte
 - The test set is fully curated to ensure reliable evaluation  .
 - Some noise may remain in the training set.
 
+- 
+(See `paper.pdf` for full details.)
+
+---
+
+## Contact
+
+Iker Gutierrez Fandiño  
+University of the Basque Country (EHU)  
+igutierrez134@ikasle.ehu.eus
+
