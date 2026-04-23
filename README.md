@@ -55,7 +55,7 @@ The separation between `judgement` and `evidence` supports traceability and inte
 
 ## Remarks
 
-- The test set is fully curated to ensure reliable evaluation  .
+- The test set is fully curated to ensure reliable RAG evaluation.
 - Some noise may remain in the training set.
 
 
