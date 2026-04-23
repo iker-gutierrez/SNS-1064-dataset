@@ -49,7 +49,7 @@ SNS-1064 is designed for:
 - evidence-grounded generation
 - explainable NLP in healthcare
 
-The separation between `judgement` and `evidence` supports traceability and interpretability, which are critical in medical applications.
+The separation between `judgement` and `evidence`/`considerations` supports traceability and interpretability, which are critical in medical applications.
 
 ---
 
