@@ -6,8 +6,12 @@ SNS-1064 is a structured Spanish clinical dataset designed for Retrieval-Augment
 
 - Samples: 1,064 QA instances.
 - Domains:
-  - anxiety
-  - diabetes, ictus management, palliative care, pedriatic palliative care, secondary ictus prevention.
+  - anxiety.
+  - diabetes.
+  - ictus management.
+  - palliative care.
+  - pedriatic palliative care.
+  - secondary ictus prevention.
 - Structure:
   - `guidebook` : source document.
   - `topic` : clinical context.
