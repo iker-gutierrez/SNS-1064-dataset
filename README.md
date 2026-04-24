@@ -41,7 +41,7 @@ The dataset explicitly separates answers from their supporting evidence, enablin
 The dataset is built using a rule-based pipeline:
 
 1. PDF → TXT conversion.
-2. Text cleaning (whitespace and bullet removal)
+2. Text cleaning (whitespace and bullet removal).
 3. Regex-based text segmentation.
 4. Sample filtering (removal of non-informative placeholders).
 5. Manual curation (entire test set, partial training set).
@@ -51,18 +51,18 @@ The dataset is built using a rule-based pipeline:
 ## Use Case
 
 SNS-1064 is designed for:
-- RAG-based clinical QA
-- evidence-grounded generation
-- explainable NLP in healthcare
+- RAG-based clinical QA.
+- evidence-grounded generation.
+- explainable NLP in healthcare.
 
-The separation between `judgement` and `evidence`/`considerations` supports traceability and interpretability, which are critical in medical applications.
+The separation between `judgement` and `evidence`/`considerations` supports factuality, explainability, and traceability, which are essential in high-stakes domains such as healthcare.
 
 ---
 
 ## Remarks
 
 - The test set is fully curated to ensure reliable RAG evaluation.
-- Some noise may remain in the training set.
+- Some noise is expected in the training set.
 
 
 ---
