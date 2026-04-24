@@ -28,7 +28,7 @@ The dataset explicitly separates answers from their supporting evidence, enablin
 ## Repository Contents
 
 - `dataset.csv` : full dataset.
-- `train_df.csv` : training split (80%).
+- `train_df.csv` : train split (80%).
 - `test_df.csv` : test split (20%).
 - `clinical_guidebooks_txt.zip` : source texts (TXT format).
 - `datasetting.ipynb` : dataset construction pipeline.
